@@ -1,0 +1,179 @@
+/** estilos globales **/
+.container {
+
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto ;
+}
+
+
+
+/** Header **/
+
+
+header{
+background-color: #1c1c1c;
+}
+
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+header nav {
+display: flex;
+justify-content: space-between;
+padding: 5px;
+align-items: center;
+color: rgba(236, 225, 225, 0.938);
+}
+
+header nav ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    
+    
+
+
+    
+ }
+
+ 
+ 
+ .jumbotron-content{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:  rgba(236, 225, 225, 0.938);
+    gap: 10px;
+    align-items: center;
+
+
+ }
+ 
+ .jumbotron-img{
+    text-align: right;
+ }
+ 
+
+ .container-icons :hover{
+
+  
+ 
+  align-items: center;
+  cursor: pointer;
+  
+ 
+  
+ }
+
+ .container-heart :hover{
+    cursor: pointer;
+    color: red;
+    align-items: center;
+ }
+
+
+ /** productos**/
+ 
+ 
+ .container-coffe{
+    background-color: #1c1c1c;
+    color: rgba(236, 225, 225, 0.938);
+    text-align: center;
+    
+
+ }
+
+
+ 
+ section .card-product-coffe{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    
+ }
+
+ .coffe-info{
+ 
+  
+  border-radius: 40px;
+  align-items: center;
+  
+  
+ }
+
+
+ /** Panaderia **/ 
+
+
+  .container-bread{
+    
+    color: rgba(236, 225, 225, 0.938);
+    text-align: center;
+   
+  }
+
+  .bread-type {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 30px;
+    
+    
+    
+  }
+
+  .selection{
+
+    cursor: pointer;
+  }
+
+
+  /** Newsletter**/
+
+
+  
+  .Newsletter{
+
+    text-align: center;
+    color: rgba(236, 225, 225, 0.938); 
+    
+
+
+  }
+  /**footer**/
+
+
+  
+  .footer-icons{
+    background-color: #1c1c1c;
+    color: rgba(236, 225, 225, 0.938); 
+    
+    
+
+
+  }
+
+  
+  .footer-coffe{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    color: rgba(236, 225, 225, 0.938);
+    
+  }
+
+  .footer-info{
+    display: flex;
+    justify-content: space-evenly;
+    color: rgba(236, 225, 225, 0.938);
+    
+  }
