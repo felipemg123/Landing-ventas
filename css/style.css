@@ -179,8 +179,13 @@ header nav ol {
   }
 
   
-  .login-box{
-   
+  
+  .login{
     text-align: center;
-    
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
   }
