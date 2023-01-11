@@ -49,9 +49,9 @@ header nav ol {
  .jumbotron-content{
    
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
     color:  rgba(236, 225, 225, 0.938);
-    gap: 10px;
+    gap: 50px;
     align-items: center;
 
 
@@ -205,3 +205,6 @@ header nav ol {
   .Contraseña{
     padding: 20px;
   }
+
+
+  
