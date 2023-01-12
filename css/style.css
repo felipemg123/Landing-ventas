@@ -207,4 +207,58 @@ header nav ol {
   }
 
 
+  .first-unity{
+    background-color: #1c1c1c;
+  }
+
+  /** Responsive movil **/
+
+  @media (max-width: 768px) {
+    
+    .container-icons{
+      display: none;
+    }
+
+    .jumbotron-content .container{
+
+      grid-template-columns: 1fr 1fr;
+    
+    }
+
+    
+    .card-product-coffe{
+      flex-direction: column;
+    }
+
+
+    
+    .bread-type{
+      flex-direction: column;
+    }
+
+    
+    .Newsletter{
+      flex-grow: 1;
+    }
+
+    
+    .footer-info{
+      align-items: stretch;
+    }
+
+    .logo{
+      flex-grow: 1;
+      
+      
+    }
+    .navegador{
+      display: none;
+    }
+
+    
+    
+  
+  }
+ 
+
   
