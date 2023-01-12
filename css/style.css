@@ -98,7 +98,7 @@ header nav ol {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 10px;
+    gap: 18px;
     
  }
 
@@ -254,9 +254,16 @@ header nav ol {
       display: none;
     }
 
-    .login{
+    .login {
       align-items: center;
+      
     }
+    
+    .Newsletter-info{
+
+      max-width: 760px;
+    }
+
 
     
     
