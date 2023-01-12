@@ -216,7 +216,7 @@ header nav ol {
   @media (max-width: 768px) {
     
     .container-icons{
-      display: none;
+      
     }
 
     .jumbotron-content .container{
@@ -247,12 +247,17 @@ header nav ol {
     }
 
     .logo{
-      flex-grow: 1;
+      flex-grow: 0.5;
+      
       
       
     }
     .navegador{
       display: none;
+    }
+
+    .login{
+      align-items: center;
     }
 
     
